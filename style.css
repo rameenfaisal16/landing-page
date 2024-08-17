@@ -11,6 +11,8 @@ html {
    */
   font-size: 62.5%;
   overflow-x: hidden;
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -267,6 +269,22 @@ header {
 
 .icon-mobile-nav[name="close"] {
   display: none;
+}
+
+/* sticky navigation */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  /* background-color: rgb(255, 255, 255, 0.97); */
+  background-color: rgb(253, 242, 233, 0.97);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgb(0, 0, 0, 0.03);
 }
 
 /* ************************************** HERO SECTION ******************************************* */
