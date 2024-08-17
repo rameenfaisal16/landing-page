@@ -114,6 +114,8 @@
     margin-top: 1.2rem;
   }
 
+  /* mobile navigation */
+
   .btn-mobile-navigation {
     display: block;
     z-index: 9999;
